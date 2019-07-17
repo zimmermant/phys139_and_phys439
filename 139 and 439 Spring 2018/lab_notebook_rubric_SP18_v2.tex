@@ -1,0 +1,60 @@
+\documentclass[10pt, letterpaper]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{fourier}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{parskip}
+\usepackage{subcaption}
+\usepackage[cm]{fullpage}
+\usepackage{physics}
+\usepackage{subcaption}
+\usepackage{geometry}
+\usepackage{pdflscape}
+
+\pagestyle{plain}
+\parindent=0.00in
+\begin{document}
+\newgeometry{margin=.2cm} % modify this if you need even more space
+\begin{landscape}
+        \begin{tabular}{|p{2cm}|p{4cm}|p{4.5cm}| p{5cm}|p{5.4cm}| p{3.5cm}|}\hline
+            \textbf{Criteria} & \textbf{Not Included} & \textbf{Beginning} & \textbf{Developing} & \textbf{Proficient} & \textbf{Advanced} \\ \hline
+            
+            \multicolumn{6}{|l|}{\textbf{Format}}\\ \hline
+            
+            \multicolumn{1}{|c|}{Date and Time} & Date and time missing & Date and time on a few entries & Date and time on most entries & Date and time on all entries &   \\ \hline
+
+            Goal for the day & No goal for the day is given & Vague goal is given & Goal is given but success is not easily measured & Specific goals that can be evaluated as complete are given & \\ \hline
+            
+            Organization & Random phrases with no clear sentence structure & Material is presented in complete sentences but is not very organized & Material is somewhat organized & Clear organization that includes headers, easy to follow with well-aligned plots & Organization is consistent from day-to-day plus extra effort (e.g. links to different sections) \\ \hline
+
+            Mistakes & Mistakes are deleted from the lab notebook & & Mistakes are struck out but not explained & Mistakes are struck out and an explanation is included & \\ \hline
+            
+            \multicolumn{6}{|l|}{\textbf{Data Record}}\\ \hline
+
+            \multicolumn{1}{|p{2cm}|}{Original Data} & Missing & Numbers are recorded but basic information (what   is measured, units, conditions) is missing. & Mostly complete record of data and other relevant information & Original data is recorded, along with units, conditions, and other useful information & \\ \hline
+
+            Plots & Data is not plotted & Data  is  plotted, but basic information (units, labels, fit function) is unclear &Clear plots and fits are included, but could be improved. & Plots of data and fits are included as needed and can be readily understood by the reader. & \\ \hline
+
+            Literature Review and Other Resources & No articles or other resources mentioned & Links to some articles and resources used & Links to all articles and resources used & Previous plus some comments on literature & Previous plus extensive comments on the literature \\ \hline
+ 
+            \multicolumn{6}{|l|}{\textbf{Experimental Design and Measurement}}\\ \hline
+ 
+            \multicolumn{1}{|p{2cm}|}{Experimental design} & No description of experiment is given & Cursory description of how experiment was conducted is given. & Brief description of how experiment was conducted is given and partial list of steps. & Full description of how experiment was conducted and steps are well described & Previous items plus reasoning behind why steps were performed in the manner described \\ \hline
+ 
+            Measurement Equipment (Only on first use) & No attempt to examine how the apparatus or measurement tools function. & Attempts to test or calibrate   the measurement system, but the understanding is incomplete or incorrect. & Basic  operation   of  the measurement devices is  demonstrated,   but perhaps a   small   omission,   or  could   benefit from quantitative comparison to expected behavior.  & Notebook  includes clear  tests/measurements aimed    at  verifying   understanding   the operation   of  the key measurement tools.      Good    use of  diagrams,   equations,  and comparison  to  expected    behavior. & \\ \hline
+
+            Limitations and uncertainty of measurements & No mention of uncertainty of measurement or validity of measurement & Mentions    limitations,    but only    a   partial list,   or  incorrect   list. Uncertainties on  key quantities  missing.        No  attempt or  discussion  of  how to  improve the measurement. & Identifies relevant  limitations of  the measurement in  a   qualitative way.        Gives   estimates   of  uncertainties.      Some    attempt or  mention of how  to  improve the measurement,    but incomplete  or  incorrect. & All    relevant    measurement limitations are identified. Estimates   of uncertainties    in  key measurements    are included. Efforts   made    to  identify    the key limitation  and improve the measurement (if possible). & \\ \hline
+
+            \multicolumn{6}{|l|}{\textbf{Physical Concepts and Calculations}}\\ \hline
+
+            \multicolumn{1}{|p{2cm}|}{Mathematical Caclulations} & No calculations present & Some scattered calculations with no explanation & Complete calculations but no explanation included & Complete calculations with an explanation of the steps & Previous column plus a description of new insights gained from calculations \\ \hline
+
+            Physics background & Does   not identify    key physics ideas,  equations,  or principles. & Some   of  the principles  are identified, and partially   used    to  explain the system. & Identified    the principles, but incomplete  or  unclear explanation. & Basic    physics ideas   or  equations   are included.       & Advanced ideas or equations are included and the student goes above and beyond \\ \hline
+
+        \end{tabular}
+\end{landscape}
+\restoregeometry
+\end{document}
